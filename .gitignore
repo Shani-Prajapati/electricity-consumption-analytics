@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large raw datasets (>100MB exceeds GitHub limits)
+data/*.txt
+data/*.zip
+data/household_power_consumption*.txt
+
+# IDE & Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
